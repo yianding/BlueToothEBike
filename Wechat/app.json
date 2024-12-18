@@ -1,0 +1,19 @@
+{
+  "pages":[     
+    "pages/instrumentBoard/instrumentBoard"          
+  ],
+
+  "window": {
+    "backgroundTextStyle":"dark",
+    "navigationBarTitleText": "SMARTBIKE",
+    "navigationBarBackgroundColor": "#e4f0ed", 
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#e6f2ec" 
+  },
+
+  "permission":{
+      "bluetooth":{
+        "desc":"需要蓝牙权限来寻找我们的设备"
+      }
+  }
+}

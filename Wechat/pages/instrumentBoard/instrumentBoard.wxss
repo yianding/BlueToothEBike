@@ -1,0 +1,1187 @@
+
+.pages{
+  background-color: #e4f0ed;
+  padding: 0 0 0 0; 
+  height: 100vh;
+}
+.fristBox{
+  width: 90%;
+  height: 10%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+
+}
+.leftBoxofFrist{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.connect-prompt{
+  font-size: 40rpx;
+  font-weight: 200;
+  margin-left: 18%;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.connect-buttonchoose{
+  width: 70%;
+  height: 50%;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  background-color: yellowgreen;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.connect-buttonchoose1{
+  width: 70%;
+  height: 50%;
+  border-radius: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.connect-button-script1{
+  color: yellowgreen;
+  font-size: 35rpx;
+  font-weight: 600;
+}
+.connect-button-script{
+  color: white;
+  font-size: 35rpx;
+  font-weight: 600;
+}
+.helloUser{
+  font-size: 45rpx;
+  font-weight: 600;
+}
+.helloDevice{
+  margin-top: 2%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.helloDevice1{
+  font-weight:lighter;
+  font-size: 36rpx;
+}
+.helloDevice2{
+  font-weight: 600;
+  color: white;
+  font-size: 48rpx;
+  width: 55%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.rightBoxofFrist{
+  width: 30%;
+}
+.user{
+  width: 85%;
+  height: 100%;
+  margin-left: 15%;
+  background-color: yellowgreen;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userpage{
+  height: 110rpx;
+  width: 110rpx;
+}
+.secondBox{
+  width: 90%;
+  height: 65%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.leftSecondBox{
+  width: 47.5%;
+}
+/*速度组件s*/
+.speedBox{
+  background-color: white;
+  height: 40%;
+  border-radius: 60rpx;
+  margin-top: 5%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+.speedTitle{
+  color: yellowgreen;
+  font-size: 38rpx;
+  font-weight: 600;
+  margin-left: 15%;
+  position: relative;
+  top: 5%;
+}
+.speedbig{
+  color: yellowgreen;
+  font-size: 180rpx;
+  font-weight: 600;
+  margin-left: 15%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.speedsmall{
+  color: yellowgreen;
+  font-size: 38rpx;
+  font-weight: 600;
+  margin-left: 35%;
+}
+/*速度组件e*/
+/*启动组件s*/
+.startBox{
+  height: 28.5%;
+  width: 100%;
+  margin-top: 5%;
+  position: relative;
+  transition: transform 0.6s; /* 动画过渡 */
+  transform-style: preserve-3d; /* 保持3D效果 */
+}
+.noLinkStartBox{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.startimage{
+  height: 200rpx;
+  width: 200rpx;
+  margin-right: 10%;
+}
+.stopimage{
+  height: 200rpx;
+  width: 200rpx;
+}
+.LinkStartBoxWithNo{
+  background-color: yellowgreen;
+  width: 100%;
+  height: 100%;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+.noLinkStartBoxWithYes{
+  background-color: yellowgreen;
+  width: 100%;
+  height: 100%;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+/*启动组件e*/
+.rightSecondBox{
+  width: 47.5%;
+  height: 100%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+/*电量组件s*/
+.batteryBlock{
+  background-color: white;
+  height: 35%;
+  border-radius: 60rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.batteryimage{
+  height:100rpx ;
+  width: 100rpx;
+  margin-left:35%;
+  margin-top: 28%;
+}
+.batterytitlebox{
+  display: flex;
+  flex-direction: row;
+}
+.battryNum{
+  font-size: 37rpx;
+  font-weight: 600;
+  margin-left: 20%;
+  color: yellowgreen;
+}
+.batteryPercentage{
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-left: 20%;
+  color: yellowgreen;
+}
+.canvasBox{
+  position: relative;
+  z-index: -1;
+}
+/*电量组件e*/
+/*设备弹窗s*/
+.connectWindow {
+  position: fixed; /* 固定定位 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* 确保弹窗在上方 */
+}
+.connectPage {
+  width: 80%; /* 可以根据需要调整宽度 */
+  height: 60%; /* 固定高度 */
+  background-color: white; /* 背景颜色 */
+  border-radius: 60px; /* 圆角 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4); /* 阴影效果 */
+  display: flex; /* 使用 flexbox 布局 */
+  flex-direction: column; /* 垂直布局 */
+  align-items: center; /* 居中对齐 */
+
+}
+.connectWindowTitle{
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-weight: 600;
+  font-size: 43rpx;
+  color: yellowgreen;
+}
+.deviceChooseLine{
+  background-color: yellowgreen;
+  width: 95%;
+  height: 4rpx;
+  margin: 5rpx 0;
+}
+.deviceLists{
+  width: 100%;
+  height: 85%;
+  overflow-y: auto; 
+}
+.itemStyle{
+  width: 96%;
+  height: 17%;
+  background-color: yellowgreen;
+  border-radius: 40rpx;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.itemchar{
+  width: 40%;
+  font-size: 50rpx;
+  font-weight: 600;
+  color: white;
+  white-space: nowrap; /* 不换行 */
+  text-overflow: ellipsis; /* 显示省略号 */
+}
+.price{
+  width: 50%;
+  font-size: 36rpx;
+  font-weight:lighter ;
+  color: white;
+}
+.connectWindowButton{
+  width: 25%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: yellowgreen;
+  border-radius: 20rpx;
+}
+/*设备弹窗e*/
+/*信号板块s*/
+.signalBlock{
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 60rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noSiganal{
+  font-size: 37rpx;
+  color: yellowgreen;
+}
+.signalima{
+  height: 100rpx;
+  width: 120rpx;
+}
+/*信号板块e*/
+/*时间板块s*/
+.timeBlock{
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 60rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time1{
+  font-size: 42rpx;
+  font-weight: 600;
+  color: yellowgreen;
+}
+/*时间板块e*/
+/*电池锁板块s*/
+.batteryLockBlock{
+  height: 40%;
+  width: 100%;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 60rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lockStateTitle{
+  margin-top: 8%;
+  margin-right: 20%;
+  font-size: 38rpx;
+  font-weight: 600;
+  color: yellowgreen;
+}
+.lockStateShow{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  width: 70%;
+  height: 25%;
+  margin-top: 10%;
+  border-radius: 40rpx;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.StateScript1{
+  color: yellowgreen;
+  font-size: 100rpx;
+  position: relative;
+  bottom: 30%;
+}
+.StateScript{
+  font-size: 33rpx;
+  font-weight: 400;
+  color: yellowgreen;
+}
+.couldnotOpenLockButton{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  width: 70%;
+  height: 25%;
+  margin-top: 10%;
+  border-radius: 40rpx;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.couldnotScript{
+  font-size: 40rpx;
+  font-weight: 600;
+  color: yellowgreen;
+}
+.couldOpenLockButton{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  width: 70%;
+  height: 25%;
+  margin-top: 10%;
+  border-radius: 40rpx;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.couldnotScript1{
+  font-size: 40rpx;
+  font-weight: 600;
+  color: white;
+}
+/*电池锁板块e*/
+/*切换设备板块s*/
+.changeDeviceBox{
+  background-color: white;
+  width: 100%;
+  height: 15%;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.changeDeviceBox1{
+  background-color: yellowgreen;
+  width: 100%;
+  height: 15%;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.changeimage{
+  height: 100rpx;
+  width: 100rpx;
+}
+/*切换设备板块e*/
+/*主页板块s*/
+.userPage{
+  position: fixed; /* 固定定位 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  z-index: 1000; /* 确保弹窗在上方 */
+}
+.besideLeftPage{
+  width: 80%;
+  height: 60%;
+  margin-right: 0;
+  background-color: white;
+  border-radius: 0 0rpx 60rpx 60rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.userHead{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2%;
+  height: 16%;
+}
+.headPhotoBox{
+  background-color: yellowgreen;
+  margin-left: 3%;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.headPhoto{
+  height: 120rpx;
+  width: 120rpx;
+}
+.userName{
+  font-size: 43rpx;
+  margin-left: 10%;
+  font-weight: 550;
+  color: yellowgreen;
+}
+.headLine{
+  width: 100%;
+  margin: 3% 0;
+  height: 4rpx;
+  background-color: yellowgreen;
+}
+.changeName{
+  margin-right: 3%;
+  width: 15%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellowgreen;
+}
+.changeNameImage{
+  height: 40rpx;
+  width: 40rpx;
+}
+.userInformationBox{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 65%;
+}
+.wallet{
+  margin-top: 3%;
+  width: 90%;
+  height: 17%;
+  display: flex;
+  flex-direction: row;
+  background-color: yellowgreen;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.walletImage{
+  height: 90rpx;
+  width: 90rpx;
+  margin-left: 1%;
+}
+.walletTitle{
+  color: white;
+}
+.userInfoImage{
+  height: 70rpx;
+  width: 70rpx;
+  margin-left: 2%;
+}
+.userInfoTitle{
+  color: white;
+}
+.exitUser{
+  background-color: yellowgreen;
+  width: 30%;
+  margin-top: 3%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.exitTitle{
+  color: white;
+  font-size: 39rpx;
+}
+.Load{
+  width: 50%;
+  height: 16%;
+  margin-top: 20%;
+  background-color: yellowgreen;
+  border-radius: 20rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.register{
+  width: 50%;
+  height: 16%;
+  margin-top: 8%;
+  background-color: yellowgreen;
+  border-radius: 20rpx;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.Loading{
+  color: white;
+  font-size: 38rpx;
+}
+.AInputBox{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 25%;
+  margin-top: 1%;
+}
+.pleaseTitle{
+  font-size: 36rpx;
+  font-weight: 550;
+  margin-left: 3%;
+  color: yellowgreen;
+}
+.inputContainer{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.RegisterInput{
+  border:4rpx solid #9ACD32;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  height: 90%;
+  width: 85%;
+  border-radius: 20rpx;
+  font-size: 40rpx;
+  font-weight: 550;
+  color: #9ACD32;
+}
+.ifrightimage{
+  height: 75rpx;
+  width: 75rpx;
+}
+.registerButton1{
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  width: 50%;margin-top: 3%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30rpx;
+}
+.registerButton{
+  background-color: yellowgreen;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  width: 50%;margin-top: 3%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30rpx;
+}
+.cannotRegisterTitle{
+  font-size: 38rpx;
+  font-weight: 550;
+  color: #9ACD32;
+}
+.canRegisterTitle{
+  font-size: 38rpx;
+  font-weight: 550;
+  color: white;
+}
+/*主页板块e*/
+/*出租板块s*/
+.rentBox{
+  margin-top: 10%;
+  width: 100%;
+  height: 15%;
+}
+.GiveBox{
+  width: 43.5%;
+  height: 9.5%;
+  position: relative;
+  left:51.5%;
+  top:1.4%
+}
+.rentImage{
+  height: 150rpx;
+  width: 150rpx;
+}
+.notmy{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50rpx;
+  background-color: yellowgreen;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.notmyGive{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50rpx;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.giveTitle{
+  color: yellowgreen;
+  font-size: 45rpx;
+  margin-left: 8%;
+  font-weight: 600;
+}
+.giveImage{
+  height: 100rpx;
+  width: 100rpx;
+  margin-left: 10%;
+}
+.myGive{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50rpx;
+  background-color: yellowgreen;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.giveTitle1{
+  color: white;
+  font-size: 45rpx;
+  margin-left: 12%;
+  font-weight: 600;
+}
+.rentTitle{
+  color: white;
+  font-size: 45rpx;
+  margin-left: 8%;
+  font-weight: 600;
+}
+.rentToImage{
+  height: 100rpx;
+  width: 100rpx;
+  margin-left: 5%;
+}
+.rentTitle1{
+  color: white;
+  font-size: 45rpx;
+  margin-left: 15%;
+  font-weight: 600;
+}
+.noLinkRent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 50rpx;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.rentTitle2{
+  font-size: 200rpx;
+  color: yellowgreen;
+  margin-bottom: 36%;
+}
+/*出租板块e*/
+/*出借弹窗s*/
+.RentBox{
+  position: fixed; /* 固定定位 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  z-index: 1000; /* 确保弹窗在上方 */
+}
+.ThreeBox{
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.RentInputContainer {
+  margin: 20px; /* 外边距 */
+  padding: 10px; /* 内边距 */
+  height: 6%;
+  background-color: #f8f8f8; /* 背景色 */
+  border-radius: 10px; /* 圆角 */
+  margin-top: 7%;
+}
+.switchBox{
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  height: 8%;
+  overflow: hidden;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.datePickerBox{
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  height: 8%;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.SubmitRentButton{
+  background-color: yellowgreen;
+  width: 40%;
+  margin-top: -2%;
+  border-radius: 30rpx;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ExitRentButton{
+  background-color: yellowgreen;
+  width: 40%;
+  border-radius: 30rpx;
+  height: 11%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/*出借弹窗e*/
+/*微信号和电话号s*/
+.PhoneIma{
+  height: 80rpx;
+  width: 80rpx;
+  margin-left: 5%;
+}
+.PhoneBox{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 3%;
+}
+.PhoneName{
+  font-size: 33rpx;
+  font-weight: 550;
+  color: #9ACD32;
+}
+.PhoneContainer{
+  background-color: #f8f8f8;
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.InfouseShow{
+  margin-right: 5%;
+  color: #9ACD32;
+  font-size: 32rpx;
+  font-weight: 550;
+}
+.AboutInfoButton{
+  margin-top: 4%;
+  width: 60%;
+  background-color: #9ACD32;
+  height: 20%;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AboutInfoButtonText{
+  color: white;
+  font-weight: 550;
+}
+.NumberDeclare{
+  width: 85%;
+  background-color: #f8f8f8;
+  height: 40%;
+  margin-top: 2%;
+  border-radius: 30rpx;
+}
+.Declare{
+  font-size: 33rpx;
+  color: #9ACD32;
+}
+.geli{
+  margin-top: 3%;
+  width: 96%;
+  margin-left: 5%;
+}
+.ChangePhoneBox{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 30%;
+  margin-top: 3%;
+}
+.ChangePhonetext{
+  font-size: 40rpx;
+  font-weight: 550;
+  color: #9ACD32;
+}.ChangePhonetext1{
+  margin-top: 2%;
+  font-size: 32rpx;
+  font-weight: 550;
+  color: #9ACD32;
+}
+.ChangeInputContainer{
+  width: 100%;
+  background-color: #f8f8f8;
+  height: 55%;
+  margin-top: 2%;
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.ChangeInputStyle{
+  width: 96%;
+  height: 70%;
+  margin-left: 2%;
+  color: #9ACD32;
+}
+.PhoneAndChatChangeSubumit{
+  height: 16%;
+  position: relative;
+  top: 5%;
+  width: 46%;
+  background-color: #9ACD32;
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SubmitchangeButtontext{
+  font-size: 38rpx;
+  font-weight: 550;
+  color: white;
+}.chooseImageText{
+  font-size: 29rpx;
+  color: gray;
+}.QRneedShow{
+  position: absolute;
+  z-index: -100;
+  opacity: 0;
+  bottom: 1500rpx;
+}.chooseImageText1{
+  font-size: 29rpx;
+  color:yellowgreen
+}.visitingCardRow{
+  display: flex;
+  flex-direction: row;
+}
+/*微信号和电话号e*/
+/*转让弹窗*/
+.TransformDeviceView{
+  position: fixed; /* 固定定位 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  z-index: 1000; /* 确保弹窗在上方 */
+}.transformBox{
+  width: 80%;
+  height: 30%;
+  background-color: white;
+  border-radius: 60rpx;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}.transformInputContainer{
+  margin: 20px; /* 外边距 */
+  padding: 10px; /* 内边距 */
+  height: 15%;
+  background-color: #f8f8f8; /* 背景色 */
+  border-radius: 10px; /* 圆角 */
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+}.TransformDevicebutton{
+  background-color: #9ACD32;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rpx;
+  margin-top: 5%;
+}
+.TransformDeviceTitle{
+  color: white;
+}.exitTransform{
+  background-color: #9ACD32;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rpx;
+  margin-top: 5%;
+}.GiveInput{
+  width: 100%;
+}
+/*转让弹窗*/
+/*wantRent*/
+.qrCodeImage{
+  margin-top: 16%;
+  width: 60%;
+}.borrowText{
+  font-size: 44rpx;
+  margin-top: 15%;
+  color: #9ACD32;
+}.exitBorrowButton{
+  position: absolute;
+  margin-top: 90%;
+  width: 40%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20rpx;
+  background-color: #9ACD32;
+}.exitBorrowText{
+  font-size: 39rpx;
+  font-weight: 600;
+  color: white;
+}.QRHide{
+  position: absolute;
+  opacity: 0;
+  bottom: 10000rpx;
+}
+/*wantRent*/
+/*Mydevice*/
+.MyDeviceImage{
+  height: 85rpx;
+  width: 85rpx;
+}.userInformationBoxCanFlow{
+  width: 100%;
+  height: 65%;
+}.myDevicesCheckButton{
+  width: 90%;
+  height: 17%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9ACD32;
+  margin-top: 2%;
+  border-radius: 20rpx;
+}.SetMyDevice{
+  height: 60rpx;
+  width: 60rpx;
+}.myDeviceName{
+  color: white;
+  font-size: 38rpx;
+  font-weight: 550;
+}.DetailName{
+  background: linear-gradient(to right, yellowgreen, lightgreen, limegreen);
+  height: 13%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30rpx;
+}.DetailNameTitle{
+  color: white;
+  font-weight: 600;
+  font-size: 42rpx;
+}.rentRemind{
+  color: #9ACD32;
+  font-size: 28rpx;
+  margin: 1% 0;
+}.rentUsingBox{
+  width: 88%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  border-radius: 30rpx ;
+  justify-content: center;
+  margin-top: 2%;
+  margin-left: 6%;
+}.rentName{
+  font-weight: 600;
+  font-size: 36rpx;
+  font-style: italic;
+}.showRentTow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}.rentNameContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}.rentTimeContainer{
+  display: flex;
+  justify-content: center;
+}.rentTimeTo{
+  margin-top: 2%;
+  font-size: 35rpx;
+  color: #9ACD32;
+  font-weight: 600;
+}.showRentTow{
+  margin-top: 1%;
+}.openTitle1{
+  font-size: 34rpx;
+  color: yellowgreen;
+  font-weight: 600;
+}.openTitle2{
+  font-size: 34rpx;
+  font-weight: 600;
+}.scrollBox{
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+/*Mydevice*/
+.timeLimitShow{
+  position: fixed; /* 固定定位 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  z-index: 1100; /* 确保弹窗在上方 */
+}.selectBox{
+  height: 20%;
+  width: 80%;
+  margin-bottom: 40%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 40rpx;
+  flex-direction: column;
+}.siteBox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  justify-content: center;
+}.timeLimitText{
+  font-size: 42rpx;
+  font-weight: 600;
+  color: #9ACD32;
+}.QRbuttonBox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+}.exitGenerateQR{
+  width: 30%;
+  background-color: #9ACD32;
+  border-radius: 20rpx;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}.timeLimitText1{
+  font-size: 42rpx;
+  font-weight: 600;
+  color: white;
+}
+
+.showAuthorQRBox{
+  background-color: white;
+  height: 60%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 70rpx;
+  flex-direction: column;
+}.qrCodeImage1{
+  width: 75%;
+}.saveQRCodeText{
+  margin-top: 10%;
+  font-size: 40rpx;
+  color: #9ACD32;
+}.exitAuthorQRButton{
+  width: 30%;
+  margin-top: 10%;
+  height: 10%;
+  border-radius: 30rpx;
+  background-color: #9ACD32;
+}.exitAuthorQRButtonText{
+  color: white;
+}
